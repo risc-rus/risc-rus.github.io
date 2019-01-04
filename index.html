@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <title>Rodastahm</title>
+ <link href="styles.css" rel="stylesheet" type="text/css" />
+ <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+ <script type="text/javascript" src="scripts.js"></script>
+</head>
+
+<body>
+ <ul id="nav">
+  <li><a href="main.html" target="miframe" onclick="changeTitle('Главная')">Главная<br /><br /> <img src="img/main.png" alt="main" class="nimg"/></a>
+  <li><a href="news.html" target="miframe" onclick="changeTitle('Новости')">Новости<br /><br /> <img src="img/news.png" alt="news" class="nimg"/></a>
+  <li><a href="bio.html" target="miframe" onclick="changeTitle('Биография')">Биография<br /><br /> <img src="img/bio.png" alt="bio" class="nimg"/></a>
+  <li><a href="pro.html" target="miframe" onclick="changeTitle('Проекты')">Проекты<br /><br /> <img src="img/articles.png" alt="pro" class="nimg"/></a>
+  <li><a href="haiku.html" target="miframe" onclick="changeTitle('Haiku')">Haiku<br /><br /> <img src="img/haiku.png" alt="haiku" class="nimg"/></a>
+  <li><a href="links.html" target="miframe" onclick="changeTitle('Ссылки')">Ссылки <br /><br /> <img src="img/links.png" alt="links" class="nimg"/></a>
+  <li><a href="cont.html" target="miframe" onclick="changeTitle('Контакты')">Контакты <br /><br /> <img src="img/cont.png" alt="cont" class="nimg"/></a>
+  <li><a href="./CV/index.html" target="_blank">Резюме<br /><br /> <img src="img/menu.png" alt="cv" class="nimg"/></a></li>
+ </ul>
+
+ <dl class="content">
+  <dt><span id="Title">Главная</span></dt>
+  <dd>
+   <iframe scrolling="no" frameborder="0" width="780px" src="main.html" name="miframe" id="miframe" onload="changeHeight()"></iframe>
+  </dd>
+ </dl>
+</body>
+
+</html>
